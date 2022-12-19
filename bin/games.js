@@ -1,1 +1,8 @@
-#!/usr/local/bin/node
+#!/usr/local/bin/env node
+import readlineSync from 'readline-sync';
+
+console.log('Welcome to the Games!');
+
+const name = readlineSync.question('May i have your name? ');
+
+console.log(`Nice to meet you, ${name}!`);
