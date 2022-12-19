@@ -7,16 +7,16 @@ console.log(`Nice to meet you, ${name}!`);
 console.log('Find the greatest common divisor of given numbers.');
 
 const questions = () => {
+  function NOD(x, y) {
+    if (y > x) return NOD(y, x);
+    if (!y) return x;
+    return NOD(y, x % y);
+  }
   for (let i = 0; i < 3; ++i) {
     const firstNum = Math.floor(Math.random() * 100);
     const secondNum = Math.floor(Math.random() * 100);
     console.log(`Question: ${firstNum} ${secondNum}`);
 
-    function NOD(x, y) {
-      if (y > x) return NOD(y, x);
-      if (!y) return x;
-      return NOD(y, x % y);
-    }
     const result = NOD(firstNum, secondNum);
     const answer = readlineSync.question('Your answer? ');
     if (+answer === result) {

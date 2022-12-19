@@ -26,6 +26,8 @@ const questions = () => {
         randomOperator = '*';
         result = firstNum * secondNum;
         break;
+      default:
+        break;
     }
     console.log(`Question: ${firstNum} ${randomOperator} ${secondNum}`);
     const answer = readlineSync.question('Your answer? ');
