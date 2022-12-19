@@ -10,7 +10,10 @@
   "author": "azrofyi",
   "license": "ISC",
   "bin": {
-    "games": "bin/games.js"
+    "games": "bin/games.js",
+    "games-even": "bin/games-even.js",
+    "games-calc": "bin/games-calc.js",
+    "games-gcd": "bin/games-gcd.js"
   },
   "devDependencies": {
     "eslint": "^8.29.0",
