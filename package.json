@@ -11,9 +11,10 @@
   "license": "ISC",
   "bin": {
     "games": "bin/games.js",
-    "games-even": "bin/games-even.js",
-    "games-calc": "bin/games-calc.js",
-    "games-gcd": "bin/games-gcd.js"
+    "game-even": "bin/game-even.js",
+    "game-calc": "bin/game-calc.js",
+    "game-gcd": "bin/game-gcd.js",
+    "game-prime": "bin/game-prime.js"
   },
   "devDependencies": {
     "eslint": "^8.29.0",
