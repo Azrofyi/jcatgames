@@ -14,7 +14,8 @@
     "game-even": "bin/game-even.js",
     "game-calc": "bin/game-calc.js",
     "game-gcd": "bin/game-gcd.js",
-    "game-prime": "bin/game-prime.js"
+    "game-prime": "bin/game-prime.js",
+    "game-progression": "bin/game-progression.js"
   },
   "devDependencies": {
     "eslint": "^8.29.0",
