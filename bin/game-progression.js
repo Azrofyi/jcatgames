@@ -15,7 +15,7 @@ const questions = () => {
     const sequence = [randomNum];
     let sumNum = randomNum;
 
-    for (let i = 0; i < 9; ++i) {
+    for (let n = 0; n < 9; ++n) {
       sumNum += randomSumNum;
       sequence.push(sumNum);
     }
